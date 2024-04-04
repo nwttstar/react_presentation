@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons'; 
+
+.view {
+  font-size: 20px;
+  color: #222;
+}
+.view p:not(:last-child) {
+  margin-bottom: 16px
+}
+.view h2 {
+  margin: 24px 0;
+  padding: 12px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #e3e3e3;
+}
+.view h3 {
+  margin: 24px 0 16px 0;
+  padding: 8px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #e3e3e3;
+}
+.view ul {
+  margin: 16px 0 34px 0;
+  padding-left: 1.5em;
+}
+.view li {
+  margin-bottom: 12px;
+  list-style-type: decimal;
+}
+.view li::marker {
+  letter-spacing: 2px;
+}
